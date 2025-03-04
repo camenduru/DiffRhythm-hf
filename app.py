@@ -317,4 +317,4 @@ demo.queue().launch(show_api=False, show_error=True)
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(ssr_mode=False)
