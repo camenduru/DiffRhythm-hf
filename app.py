@@ -259,7 +259,7 @@ with gr.Blocks(css=css) as demo:
         outputs=audio_output
     )
 
-demo.queue().launch(show_api=False, show_error=True)
+demo.queue().launch(show_api=False, show_error=True, share=True)
 
 if __name__ == "__main__":
     demo.launch()
